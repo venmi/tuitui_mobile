@@ -1,0 +1,403 @@
+﻿<html lang="zh-CN">
+<head>
+<title>推推游戏—我的手游商店，能赚钱！</title>
+<meta charset="utf-8">
+<meta name="description" content="推推游戏—我的手游商店，能赚钱！0成本投入，推广游戏赚钱；简单分享，永久收益；即时结算，便捷提现！"> 
+<meta name=keywords content="推推游戏,手机游戏,推广赚钱,手游推广,推广返现,推广返利">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<meta name="format-detection" content="telephone=yes">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/animations.css">
+<link rel="stylesheet" type="text/css" href="css/layout.css">
+<link rel="stylesheet" type="text/css" href="css/page.css">
+<link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="css/globals.css">
+<script type="text/javascript">
+var browser={  
+    versions:function(){   
+     var u = navigator.userAgent, app = navigator.appVersion;   
+     return {//移动终端浏览器版本信息   
+       trident: u.indexOf('Trident') > -1, //IE内核  
+       presto: u.indexOf('Presto') > -1, //opera内核  
+       webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核  
+       gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核  
+       mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端  
+       ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端  
+       android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器  
+       iPhone: u.indexOf('iPhone') > -1 , //是否为iPhone或者QQHD浏览器  
+       iPad: u.indexOf('iPad') > -1, //是否iPad    
+       webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部  
+      };  
+      }(),  
+      language:(navigator.browserLanguage || navigator.language).toLowerCase()  
+}   
+  
+  if(browser.versions.mobile || browser.versions.ios || browser.versions.android ||   
+    browser.versions.iPhone || browser.versions.iPad){	   
+     //window.location = "http://m.tuituiyouxi.com";	 
+  }else{
+  	window.location = "http://www.tuituiyouxi.com";	 
+  }
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?8d290ad684dec0aba24c8d09488e09a1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+<div id="loading">
+ 	<div class="spinner">
+		<div class="double-bounce1"></div>
+		<div class="double-bounce2"></div>
+	</div>
+</div>
+
+<div id="page-content" style="display: none;">
+  <div class="page page-1 page-current">
+      <div class="info_bg1"></div>
+		<div class="info">
+			<img src="images/tuitui_img1.png" class="s_1_14_t"/>
+			<img src="images/qb_img1.png" class="s_1_03_t"/>
+			<img src="images/qb_img3.png" class="s_1_05_t"/>
+			<img src="images/qb_img4.png" class="s_1_06_t"/>
+			<img src="images/qb_img6.png" class="s_1_08_t"/>
+			<img src="images/qb_img7.png" class="s_1_09_t"/>
+			<img src="images/qb_img5.png" class="s_1_07_t"/>
+			<img src="images/qb_img2.png" class="s_1_04_t"/>
+			<img src="images/bi_img1.png" class="s_1_11_t"/>
+			<img src="images/bi_img2.png" class="s_1_12_t"/>
+			<img src="images/bi_img3.png" class="s_1_13_t"/>
+			<!--<img src="images/download1.png"/>-->
+			<div class="s_1_10_t"><a href="javascript:;" onclick="isWeiXin()"><img src="images/download1.png" class="imgg1"/><span>立即下载</span></a></div>
+		</div>
+		<div class="s_1_02_t"><img src="images/tuitui_yun.png"/></div>
+		<div class="arrows"><div class="u-arrow clear"><img src="images/jiantou1.png"/></div></div>
+  </div>
+   <div class="page page-2 hide">
+       <div class="info_bg2"></div>
+		<div class="info">
+			<img src="images/tuitui_img2.png" class="s_2_01_t"/>
+			<img src="images/game_coin.png" class="s_2_02_t"/>
+			<img src="images/monny_coin.png" class="s_2_03_t"/>
+			<img src="images/ren_coin.png" class="s_2_04_t"/>
+			<img src="images/tuitui_bi.png" class="s_2_06_t"/>
+			<div class="s_2_05_t"><a href="javascript:;" onclick="isWeiXin()"><img src="images/download2.png" class="imgg1"/><span>立即下载</span></a></div>
+		</div>
+		<div class="arrows"><div class="u-arrow clear"><img src="images/jiantou2.png"/></div></div>
+   </div>
+    <div class="page page-3 hide">
+        <div class="info_bg3"></div>
+        <div class="info">
+        	<div class="info_img3">
+        		<img src="images/tuitui_img3.png" class="s_3_01_t"/>
+        	</div>
+			<img src="images/tuitui_s.png" class="s_3_02_t"/>
+			<img src="images/zhu_coin.png" class="s_3_03_t"/>
+			<img src="images/p.png" class="s_3_04_t"/>
+			<img src="images/wx.png" class="s_3_05_t"/>
+			<img src="images/mb_coin.png" class="s_3_06_t"/>
+			<img src="images/w.png" class="s_3_07_t"/>
+			<img src="images/qq.png" class="s_3_08_t"/>
+			<div class="s_3_11_t"><a href="javascript:;" onclick="isWeiXin()"><img src="images/download1.png" class="imgg1"/><span>立即下载</span></a></div>
+    	</div>
+    	<div class="arrows"><div class="u-arrow clear"><img src="images/jiantou1.png"/></div></div>
+    </div>
+    <div class="page page-4 hide">
+       <div class="info_bg4"></div>
+    	<div class="info">
+    		<img src="images/tuitui_img4.png" class="s_4_01_t"/>
+			<img src="images/tuitui_bol.png" class="s_4_02_t"/>
+			<img src="images/photo_coin.png" class="s_4_03_t"/>
+			<img src="images/dian_coin.png" class="s_4_04_t"/>
+			<img src="images/shou_left.png" class="s_4_05_t"/>
+			<img src="images/pq_img4.png" class="s_4_06_t"/>
+			<img src="images/pq_img3.png" class="s_4_07_t"/>
+			<img src="images/pq_img2.png" class="s_4_08_t"/>
+			<img src="images/shou_right.png" class="s_4_10_t"/>
+			<img src="images/pq_img1.png" class="s_4_09_t"/>
+			<div class="s_4_11_t"><a href="javascript:;" onclick="isWeiXin()"><img src="images/download1.png" class="imgg1"/><span>立即下载</span></a></div>
+			<!--<div class="s_4_11_t pg hide"><a href="javascript:;"><img src="images/download3.png"/><span>敬请期待</span></a></div>-->
+    	</div>
+    	<div class="arrows"><div class="u-arrow clear"><img src="images/jiantou1.png"/></div></div>
+    </div>
+    <div class="page page-5">
+        <div class="info_bg5"></div>
+    	<div class="info">
+    		<img src="images/lianxi_coin.png" class="s_5_01_t"/>
+			<img src="images/ph_coin.png" class="s_5_02_t"/>
+			<img src="images/lianx_q.png" class="s_5_04_t"/>
+			<div class="s_5_03_t"><a href="javascript:;" onclick="isWeiXin()"><img src="images/download1.png" class="imgg1"/><span>立即下载</span></a></div>	
+			<div class="fenx">
+				<div class="wbs"><a href="javascript:void((function(s,d,e,r,l,p,t,z,c) {var%20f='http://v.t.sina.com.cn/share/share.php?appkey=1287989737',u=z||d.location,p=['&url=',e(u),'& title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'& content=',c||'gb2312','&pic=',e(p||'')].join('');function%20a() {if(!window.open([f,p].join(''),'mb', ['toolbar=0,status=0,resizable=1,width=600,height=500,left=',(s.width- 600)/2,',top=',(s.height-600)/2].join('')))u.href=[f,p].join('');}; if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();}) (screen,document,encodeURIComponent,'','','http://resources.tuituiyouxi.com/resources/users/default/appshare.png','推推游戏—我的手游商店，能赚钱！
+分享游戏就把钱赚了，注册就得20元提现券，邀你一起来~','','utf-8'));" alt="分享到新浪微博" title="分享到新浪微博"><img src="images/share_wb.png"/></a></div>
+				<!--<span><img src="images/fenx_coin.png"/></span>-->
+				<div class="kgj" style="border-right: none;">
+					<!--<div class="XXJX_fx" style="width: 100%; position:relative;"> --> 
+                    <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&uuid=&pophcol=2&lang=zh"></script>  
+                    <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>   
+                    <div class="bshare-custom" style="width: 100%; position:relative;">       
+                        <a title="分享到QQ空间" class="bshare-qzone" href="javascript:void(0);" style="position: absolute; left:0; top:0; z-index: 9; background:#fff; opacity: 0; width:100%; height:100%; display: block;"></a>
+						<div style=" position: absolute; left:0px; top:0px; width:100%; height:100px; display: block; text-align: center; z-index: 5;"><img src="images/share_kj.png"/></div>
+						<img src="images/share_kj.png" />
+					</div>  
+                    <script type="text/javascript" charset="utf-8">  
+                        bShare.addEntry({  
+                            title: '推推游戏—我的手游商店，能赚钱！',  
+                            url: window.location,                              
+                            summary: "分享游戏就把钱赚了，注册就得20元提现券，邀你一起来~",
+                           pic: "http://resources.tuituiyouxi.com/resources/users/default/tuilogo.png"  
+                        });  
+                    </script>
+				<!--</div>-->
+				</div>
+			</div>
+    	</div>
+    </div>
+   
+</div>
+
+<div class="shares hide" onclick="page()">
+	<img src="images/share.png"/>	
+</div>
+
+<script type="text/javascript" src="js/zepto.min.js"></script> 
+<script type="text/javascript" src="js/touch.js"></script> 
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/v.js"></script>
+<script type="text/javascript">
+		(function ($) {
+            $.getUrlParam = function (name) {
+                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+                var r = window.location.search.substr(1).match(reg);
+                if (r != null) return unescape(r[2]); return null;
+            }
+        })(jQuery);
+
+			if (/android/i.test(navigator.userAgent)){
+			    // todo : android
+			}
+			
+			if (/ipad|iphone|mac/i.test(navigator.userAgent)){
+			    // todo : ios
+				$('.s_1_10_t img').attr({"src":"images/download3.png","class":"imgg2"});
+			    $('.s_1_10_t span').html("敬请期待");
+			    $('.s_1_10_t a').attr("onclick"," ");
+			    
+			    $('.s_2_05_t img').attr({"src":"images/download4.png","class":"imgg2"});
+			    $('.s_2_05_t span').html("敬请期待");
+			    $('.s_2_05_t a').attr("onclick"," ");
+			    
+			    $('.s_3_11_t img').attr({"src":"images/download3.png","class":"imgg2"});
+			    $('.s_3_11_t span').html("敬请期待");
+			    $('.s_3_11_t a').attr("onclick"," ");
+			    
+			    $('.s_4_11_t img').attr({"src":"images/download3.png","class":"imgg2"});
+			    $('.s_4_11_t span').html("敬请期待");
+			    $('.s_4_11_t a').attr("onclick"," ");
+			    
+			    $('.s_5_03_t img').attr({"src":"images/download3.png","class":"imgg2"});
+			    $('.s_5_03_t span').html("敬请期待");
+			    $('.s_5_03_t a').attr("onclick"," ");
+
+
+			}
+		$(document).ready(function(){
+					
+			
+					 /* 判断分辨率大小 */
+			var cW = document.documentElement.clientWidth;
+			var cH = document.documentElement.clientHeight;
+			var WH = cH/cW;
+			//alert(WH);
+			if(WH >= 1.6){
+				//alert();
+				$(".s_1_14_t").css("margin-top","14%");
+				$(".s_1_03_t").css("margin-top","-6.5%");
+				$(".s_1_10_t").css("margin-top","29.8%");
+				$(".s_1_11_t").css("margin-top","-24.8%");
+				
+				$(".s_2_01_t").css("margin-top","16%");
+				$(".s_2_05_t").css("margin-top","34%");
+				
+				$(".s_3_01_t").css("margin-top","12%");
+				
+			    $(".s_5_01_t").css("margin-top","14%");
+				
+			}else if(WH > 1.5 && WH < 1.6){
+				//alert();
+				$(".s_1_14_t").css("margin-top","8%");
+				$(".s_1_03_t").css("margin-top","-6.5%");
+				$(".s_1_10_t").css("margin-top","29.8%");
+				$(".s_1_11_t").css("margin-top","-24.8%");
+				
+				$(".s_2_01_t").css("margin-top","16%");
+				$(".s_2_05_t").css("margin-top","34%");
+				
+				$(".s_3_01_t").css("margin-top","10%");
+				
+			    $(".s_5_01_t").css("margin-top","14%");
+				
+			}else if(WH <= 1.5 && WH > 1.45){
+				//alert(5676);
+				$(".s_1_02_t").css("bottom","-10px");
+				$(".arrows").css("bottom","5.5%");
+				$(".s_1_03_t").css("margin-top","-6.5%");
+				$(".s_1_11_t").css("margin-top","-24.8%");
+				$(".s_1_10_t").css("margin-top","29.8%");
+				$(".s_1_14_t").css("margin-top","9%");
+				
+				$(".s_2_06_t").css("bottom","-30px");
+				$(".s_2_05_t").css("margin-top","37%");
+				
+				$(".s_3_02_t").css("bottom","-15px");
+				$(".s_3_11_t").css("margin-top","9%");
+				
+				$(".s_4_02_t").css("bottom","-30px");
+				$(".s_4_11_t").css("margin-top","15%");
+				
+			}else if(WH <= 1.45 && WH > 1.43){
+				//alert("ity");
+				$(".s_1_02_t").css("bottom","-15px");
+				$(".arrows").css("bottom","5%");
+				$(".s_1_03_t").css("margin-top","-6.5%");
+				$(".s_1_11_t").css("margin-top","-24.8%");
+				$(".s_1_10_t").css("margin-top","29.8%");
+				$(".s_1_14_t").css("margin-top","8%");
+				
+				$(".s_2_06_t").css("bottom","-30px");
+				$(".s_2_05_t").css("margin-top","37%");
+				
+				$(".s_3_02_t").css("bottom","-15px");
+				$(".s_3_11_t").css("margin-top","9%");
+				
+				$(".s_4_02_t").css("bottom","-30px");
+				$(".s_4_11_t").css("margin-top","15%");
+				
+			}else if(WH >= 1.41 && WH <= 1.43){
+				//alert("ity");
+				$(".s_1_02_t").css("bottom","-15px");
+				$(".arrows").css("bottom","5%");
+				$(".s_1_03_t").css("margin-top","-6.5%");
+				$(".s_1_11_t").css("margin-top","-24.8%");
+				$(".s_1_10_t").css("margin-top","24.8%");
+				$(".s_1_14_t").css("margin-top","10%");
+				
+				$(".s_2_06_t").css("bottom","-30px");
+				$(".s_2_05_t").css("margin-top","37%");
+				
+				$(".s_3_02_t").css("bottom","-15px");
+				$(".s_3_11_t").css("margin-top","9%");
+				
+				$(".s_4_02_t").css("bottom","-30px");
+				$(".s_4_11_t").css("margin-top","15%");
+				
+			}else if(WH < 1.41 && WH > 1.4){
+				//alert("ity");
+				$(".s_1_02_t").css("bottom","-15px");
+				$(".arrows").css("bottom","5%");
+				$(".s_1_03_t").css("margin-top","-6.5%");
+				$(".s_1_11_t").css("margin-top","-24.8%");
+				$(".s_1_10_t").css("margin-top","28.8%");
+				$(".s_1_14_t").css("margin-top","8%");
+				
+				$(".s_2_06_t").css("bottom","-30px");
+				$(".s_2_05_t").css("margin-top","37%");
+				
+				$(".s_3_02_t").css("bottom","-15px");
+				$(".s_3_11_t").css("margin-top","9%");
+				
+				$(".s_4_02_t").css("bottom","-30px");
+				$(".s_4_11_t").css("margin-top","15%");
+				
+			}else if(WH <= 1.4 && WH > 1.3){
+				//alert("<l.4");
+				/*1*/
+				$(".s_1_14_t").css({"width":"85.78%","margin-top":"5%"});
+			    $(".s_1_02_t").css("bottom","-25px");
+			    $(".s_1_10_t").css("margin-top","26%");
+			    $(".s_1_11_t").css("margin-top","-24.8%");
+			    $(".s_1_03_t").css("margin-top","-6.5%");
+			    $(".arrows").css("bottom","4%");
+			
+			    /*2*/
+			   	$(".s_2_06_t").css("bottom","-30px");
+			    $(".s_2_05_t").css("margin-top","30%");
+			    
+			    /*3*/
+			  	$(".s_3_01_t").attr("class","s_3_01_ts");
+			    $(".s_3_11_t").attr("class","s_3_11_ts");
+			    $(".s_3_02_t").attr("class","s_3_02_ts");
+			    $(".s_3_03_t").attr("class","s_3_03_ts");
+			    $(".s_3_04_t").attr("class","s_3_04_ts");
+			    $(".s_3_05_t").attr("class","s_3_05_ts");
+			    $(".s_3_06_t").attr("class","s_3_06_ts");
+			    $(".s_3_07_t").attr("class","s_3_07_ts");
+			    $(".s_3_08_t").attr("class","s_3_08_ts");
+			    
+			    /*4*/
+			 	$(".s_4_01_t").attr("class","s_4_01_ts");
+			    $(".s_4_11_t").attr("class","s_4_11_ts");
+			    $(".s_4_02_t").attr("class","s_4_02_ts");
+			    /*5*/
+			    $(".s_5_01_t").css("margin-top","8%");
+			    $(".s_5_03_t").css("margin-top","22%"); 
+			}else if(WH <= 1.3){
+				
+				$(".s_1_14_t").css({"width":"85.78%","margin-top":"4%"});
+				$(".s_1_02_t").css("bottom","-25px");
+			    $(".s_1_10_t").css("margin-top","23%");
+			    $(".s_1_11_t").css("margin-top","-24.5%");
+			    $(".s_1_03_t").css("margin-top","-6.5%");
+			    $(".arrows").css("bottom","4%");
+				
+				$(".s_2_01_t").css("margin-top","7%");
+				$(".s_2_05_t").css("margin-top","28%");
+				$(".s_2_06_t").css("bottom","-32px");
+				
+				/*3*/
+			  	$(".s_3_01_t").attr("class","s_3_01_ts");
+			    $(".s_3_11_t").attr("class","s_3_11_ts");
+			    $(".s_3_02_t").attr("class","s_3_02_ts");
+			    $(".s_3_03_t").attr("class","s_3_03_ts");
+			    $(".s_3_04_t").attr("class","s_3_04_ts");
+			    $(".s_3_05_t").attr("class","s_3_05_ts");
+			    $(".s_3_06_t").attr("class","s_3_06_ts");
+			    $(".s_3_07_t").attr("class","s_3_07_ts");
+			    $(".s_3_08_t").attr("class","s_3_08_ts");
+			    
+			     /*4*/
+			 	$(".s_4_01_t").attr("class","s_4_01_ts");
+			    $(".s_4_11_t").attr("class","s_4_11_ts");
+			    $(".s_4_02_t").attr("class","s_4_02_ts");
+			    /*5*/
+			    $(".s_5_01_t").css("margin-top","8%");
+			    $(".s_5_03_t").css("margin-top","22%"); 
+				
+			}
+
+		})
+		
+		
+		/* 刷新内容 */
+
+		document.onreadystatechange = loading; 
+		function loading(){
+			if(document.readyState == "complete")
+			{ 
+				$("#loading").hide();
+				$("#page-content").show();
+				//playbksound();
+			}
+		}
+
+</script>	
+</body>
+</html>

@@ -1,0 +1,17 @@
+body{ width:100%; overflow:hidden; }
+
+.hide{ display:none;}
+.page{ width:100%; height:100%; position:absolute; }
+
+.page-1{ background-color:#3f7ee9;}
+.page-2{ background-color:#fff;}
+.page-3{ background-color:#ff5850;}
+.page-4{ background-color:#ffbc00;}
+.page-5{ background-color:#3f7ee9;}
+
+/*.page-current{
+	z-index:1;
+}*/
+
+
+
